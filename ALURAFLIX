@@ -1,0 +1,87 @@
+ALURAFLIX
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Filmes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Filme preferido</h1>
+    </header>
+    
+    <main>
+        <section id="movie-list">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2w4jpyFE3os?si=LDMdwok7sPoiS6gn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </main>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudar Cor de Fundo</title>
+    <style>
+        body {
+            transition: background-color 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Escolha uma cor para o fundo:</h1>
+    <button onclick="changeBackgroundColor('red')">Vermelho</button>
+    <button onclick="changeBackgroundColor('green')">Verde</button>
+    <button onclick="changeBackgroundColor('blue')">Azul</button>
+    <button onclick="changeBackgroundColor('yellow')">Amarelo</button>
+
+    <script>
+        function changeBackgroundColor(color) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Trailer dos filmes</h1>
+    </header>
+    <main>
+        <div class="video-grid">
+            <div class="video-item">
+                <img src="https://br.web.img3.acsta.net/c_310_420/pictures/14/10/31/20/39/476171.jpg" alt="Interstellar
+                ">
+                <h3><iframe width="560" height="315" src="https://www.youtube.com/embed/i6avfCqKcQo?si=sf59zxrJapXU2J6d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></h3>
+            </div>
+            <div class="video-item">
+                <img src="https://br.web.img2.acsta.net/c_310_420/pictures/19/01/30/09/40/0392469.jpg" alt="O Menino que Descobriu o Vento">
+                <h3><iframe width="560" height="315" src="https://www.youtube.com/embed/nPkr9HmglG0?si=H5rKUcY5ICCGAYoW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></h3>
+            </div>
+            <div class="video-item">
+                <img src="https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/87/82/34/20028625.jpg" alt="O Menino do Pijama Listrado">
+                <h3><iframe width="560" height="315" src="https://www.youtube.com/embed/uZD-ySKl91A?si=pLDKiMv-KOdmve4J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></h3>
+            </div>
+            <div class="video-item">
+                <img src="https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/92/03/73/20176438.jpg" alt="Up: Altamente
+                ">
+                <h3><iframe width="560" height="315" src="https://www.youtube.com/embed/HWEW_qTLSEE?si=Lt5TJRLP3JTTr_tz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></h3>
+            </div>
+            <!-- Adicione mais vídeos conforme necessário -->
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
